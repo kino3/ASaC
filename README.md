@@ -9,4 +9,4 @@
 ## Acknowledgement
 
 - This project is supported by [Centre for Software Reliability (CSR)](https://researchcentres.city.ac.uk/software-reliability) at [City, University of London](https://www.city.ac.uk/).
-  - This repository's owner, [Shuji Kinoshita](kinoshita-shuji@aiit.ac.jp), promoted this project during his stay as a visiting fellow.
+  - This repository's owner, [Shuji Kinoshita](mailto:kinoshita-shuji@aiit.ac.jp), promoted this project during his stay as a visiting fellow.
