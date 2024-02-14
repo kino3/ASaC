@@ -18,7 +18,7 @@ class AssuranceCase{
 const acSample = new AssuranceCase(new TopLevelClaim("Control system X is acceptably safe to operate."));
 /*
   doc001: FormalVerificationReport
-  doc002: automatedUITest <-- to be implemented by Puppeteer and/or Jest
+  doc002: automatedUITest <-- TODO to be implemented by Puppeteer and/or Jest
 
   acSample.hasContext("Operating role and context of X")
     .supportedByStrategy("Argument over product and process aspects")
@@ -33,6 +33,6 @@ const acSample = new AssuranceCase(new TopLevelClaim("Control system X is accept
  **/
 
 // TODO not just a string (implement language support such as "All identified hazards = H1 & H2 & H3")
-
+// TODO to be implemented by Puppeteer and/or Jest
 // Puppeteer https://pptr.dev/
 // Jest https://jestjs.io/
