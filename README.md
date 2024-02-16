@@ -28,8 +28,10 @@ in which programmers can freely write assurance cases like program code.
 3. For visualisation, use existing framework like [mermaid.js](https://mermaid.js.org/)
      - exporting [SACM](https://www.omg.org/spec/SACM/) is another idea 
 4. Based on the international standards for formalising "Usability"
-     - ISO/IEC 25000 SQuaRE series (System and software quality in use)
-     - ISO 9241-210 (Human-centred design)
+     - [ISO/IEC 25000 SQuaRE series (System and software quality in use)](https://committee.iso.org/sites/jtc1sc7/home/projects/flagship-standards/iso-25000-square-series.html)
+     - [ISO 9241-210 (Human-centred design)](https://www.iso.org/obp/ui/#iso:std:iso:9241:-210:ed-2:v1:en)
+
+![ASaC for usability assurance overview](asac4ua.png)
 
 ### DSL syntax idea
 
