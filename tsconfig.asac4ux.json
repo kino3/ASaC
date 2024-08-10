@@ -5,9 +5,10 @@
 
     /* Modules */
     "module": "NodeNext",                                /* Specify what module code is generated. */
+    "resolveJsonModule": true,                        /* Enable importing .json files. */
 
     /* Emit */
-    "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+    "outDir": "./dist/ac",                                   /* Specify an output folder for all emitted files. */
 
     /* Interop Constraints */
     "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
@@ -20,7 +21,7 @@
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "src/**/*",
+    "ac/**/*"
   ],
   "exclude": [
     "node_modules",

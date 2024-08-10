@@ -1,0 +1,19 @@
+{
+  "name": "asac4ux",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "check assurance case",
+  "bin": {
+    "asac4ux": "./bin/asac4ux.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --module nodenext"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "asac4ux-lib": "file:../asac4ux-lib"
+  }
+}

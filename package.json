@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-typescript": "^7.24.1",
+    "@jest/globals": "^29.7.0",
+    "@types/express": "^4.17.21",
+    "@types/supertest": "^6.0.2",
+    "babel-jest": "^29.7.0",
+    "dotenv": "^16.4.5",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4",
+    "typescript": "^5.4.5",
+    "asac4ux":"file:./asac4ux",
+    "asac4ux-lib":"file:./asac4ux-lib"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "build:assurance-case": "tsc --project tsconfig.asac4ux.json",
+    "asac4ux:check-integrity": "asac4ux",
+    "test": "jest",
+    "test:json": "jest --json"
+  }
+}
